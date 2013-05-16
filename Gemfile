@@ -36,3 +36,10 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+gem "unicorn", ">= 4.3.1", :group => :production
+gem "omniauth", ">= 1.1.3"
+gem "omniauth-facebook"
+gem "cancan", ">= 1.6.9"
+gem "rolify", ">= 3.2.0"
+gem "simple_form", ">= 2.1.0"
