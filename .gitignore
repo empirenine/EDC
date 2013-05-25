@@ -27,8 +27,6 @@ db/*.sqlite3
 .rspec
 .redcar/
 .sass-cache
-/config/config.yml
-/config/database.yml
 /coverage.data
 /coverage/
 /db/*.javadb/
@@ -74,7 +72,3 @@ pickle-email-*.html
 **.swp
 
 *.scssc
-
-app/assets/config.rb
-
-app/views/.DS_Store
