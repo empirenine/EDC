@@ -1,0 +1,46 @@
+// COLORS ////////////////////////////////////////////////////////////////////
+
+// Black
+$default-black:                     #000;
+$default-rgba-black:                rgba(0,0,0,1);
+
+// White
+$default-white:                     #fff;
+$default-rgba-white:                rgba(255,255,255,1);
+
+// Gray
+$default-gray:                      #ccc;
+$default-minimal-gray:              #e0e0e0; 
+$default-light-gray:                #797979;
+$default-medium-gray:               #5e5e5e;
+$default-dark-gray:                 #191919;
+
+// Red
+$default-red:                       #e51f1f;
+$default-light-red:                 #e51f1f;
+$default-dark-red:                  #e51f1f;
+
+// Green
+$default-green:                     #33c235;
+$default-light-green:               #36d139;
+$default-dark-green:                #30b632;
+
+// Blue
+$default-blue:                      #1462ac;
+$default-light-blue:                #45a1f7;
+$default-dark-blue:                 #1980e0;
+
+// Yellow
+$default-yellow:                    #ffffee;
+
+// Text
+$default-text-color:                $default-minimal-gray;
+$default-text-color-light:          $default-light-gray;
+$default-text-color-dark:           $default-medium-gray;
+$default-headline-color-light:      $default-medium-gray;
+$default-headline-color-dark:       $default-dark-gray;
+
+// Links
+$default-link-color:                $default-blue;
+$default-link-hover-color:          $default-blue;
+$default-link-visited-color:        $default-blue;

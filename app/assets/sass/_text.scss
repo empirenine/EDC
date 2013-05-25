@@ -1,0 +1,33 @@
+@import 'compass/css3/transition';
+
+// TEXT STYLES ////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
+
+body {
+  color: $default-text-color;
+  font-family: $questrial;
+  font-size: 13px;
+  line-height: 20px;
+  vertical-align: middle; 
+}
+  
+h1, h2, h3, h4 {
+  font-family: "NexaBold", helvetica, arial, sans-serif;
+  -webkit-font-smoothing: subpixel-antialiased;
+  @include single-transition(color .35s);
+}
+
+h5, h6 {
+  font-family: "NexaLight", helvetica, arial, sans-serif;
+  -webkit-font-smoothing: subpixel-antialiased;
+  @include single-transition(color .35s);
+}
+
+a {
+  color: $default-link-color;
+  text-decoration: none;
+  &:hover {color: $default-link-hover-color; text-decoration: underline;}
+  &:visited {color: $default-link-visited-color;}
+}
+
+span {vertical-align: text-top;}

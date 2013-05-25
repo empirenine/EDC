@@ -1,0 +1,23 @@
+// GENERAL ////////////////////////////////////////////////////////////////////////////
+@import 'compass/reset';
+@import 'compass/css3/transition';
+@import 'compass/css3/user-interface';
+
+// CUSTOM
+@import 'colors';             // Color palette only
+@import 'variables';          // Margins, padding, images & related
+@import 'fonts';
+@import 'text';
+//@import 'forms';
+//@import 'buttons';
+//@import 'helpers';
+//@import 'header';
+//@import 'homepage';
+//@import 'product';
+//@import 'blog';
+//@import 'demo';
+
+
+// THE DETAILS 
+html {height: 100%;}
+body {background-color: $default-dark-gray;}
