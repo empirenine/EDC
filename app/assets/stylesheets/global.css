@@ -15,12 +15,12 @@ a img { border: none; }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary { display: block; }
 
-@font-face { font-family: 'NexaBold'; src: url("/assets/fonts/nexa_bold-webfont.eot"); src: url("/assets/fonts/nexa_bold-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/nexa_bold-webfont.woff") format("woff"), url("/assets/fonts/nexa_bold-webfont.ttf") format("truetype"), url("/assets/fonts/nexa_bold-webfont.svg#nexa_boldregular") format("application/font-woff"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'NexaBold'; src: url("/fonts/nexa_bold-webfont.eot"); src: url("/fonts/nexa_bold-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/nexa_bold-webfont.woff") format("woff"), url("/fonts/nexa_bold-webfont.ttf") format("truetype"), url("/fonts/nexa_bold-webfont.svg#nexa_boldregular") format("application/font-woff"); font-weight: normal; font-style: normal; }
 
-@font-face { font-family: 'NexaLight'; src: url("/assets/fonts/nexa_light-webfont.eot"); src: url("/assets/fonts/nexa_light-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/nexa_light-webfont.woff") format("woff"), url("/assets/fonts/nexa_light-webfont.ttf") format("truetype"), url("/assets/fonts/nexa_light-webfont.svg#nexa_lightregular") format("application/font-woff"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'NexaLight'; src: url("/fonts/nexa_light-webfont.eot"); src: url("/fonts/nexa_light-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/nexa_light-webfont.woff") format("woff"), url("/fonts/nexa_light-webfont.ttf") format("truetype"), url("/fonts/nexa_light-webfont.svg#nexa_lightregular") format("application/font-woff"); font-weight: normal; font-style: normal; }
 
 /*// Questrial
-@font-face { font-family: 'Questrial'; src: url('/assets/fonts/questrial-regular-webfont.eot'); src: url('/assets/fonts/questrial-regular-webfont.eot?#iefix') format('embedded-opentype'), url('/assets/fonts/questrial-regular-webfont.woff') format('woff'), url('/assets/fonts/questrial-regular-webfont.ttf') format('truetype'), url('/assets/fonts/questrial-regular-webfont.svg#questrialregular') format('application/font-woff'); font-weight: normal; font-style: normal;
+@font-face { font-family: 'Questrial'; src: url('/fonts/questrial-regular-webfont.eot'); src: url('/fonts/questrial-regular-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/questrial-regular-webfont.woff') format('woff'), url('/fonts/questrial-regular-webfont.ttf') format('truetype'), url('/fonts/questrial-regular-webfont.svg#questrialregular') format('application/font-woff'); font-weight: normal; font-style: normal;
 }*/
 body { color: #e0e0e0; font-family: "Questrial", helvetica, arial, sans-serif; font-size: 13px; line-height: 20px; vertical-align: middle; }
 
