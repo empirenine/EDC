@@ -9,9 +9,6 @@
     z-index: 100;
     
     h2 {
-      font-family: 'Michroma', helvetica, sans-serif;
-      font-size: 32px;
-      margin-bottom: 10px;
       text-transform: uppercase;
     }
     
@@ -34,8 +31,6 @@
           
           h3 {
             color: rgba(255,255,255,0.25);
-            font-family: 'Michroma', helvetica, sans-serif;
-            font-size: 18px;
             margin-bottom: 10px;
             text-transform: uppercase;
             text-align: center;
@@ -46,7 +41,6 @@
               background-color: transparent;
               border-left: 25px solid rgba(255,255,255,0);
               cursor: default;
-              font-family: 'Questrial', helvetica, sans-serif;
               opacity: 0.9;
               padding: 15px 35px 15px 25px;
               @include transition-property('background-color, opacity, border');
@@ -62,40 +56,14 @@
                 margin-bottom: 3px;
                 min-width: initial;
                 width: 100%;
-                
-                span {
-                  display: block;
-                  
-                  &.line {
-                    background-color: rgba(255,255,255,0);
-                    font-size: 0px;
-                    height: 1px;
-                    line-height: 0px;
-                    width: auto;
-                    @include transition-property('background-color, width');
-                    @include transition-duration('0.5s');
-                    @include transition-timing-function('ease-in-out');
-                    @include transition-delay('0s');
-                  }
-                }
               }
               
               p {
                 color: rgba(255,255,255,0.75);
-                font-family: 'NexaLight', helvetica, sans-serif;
-                font-size: 15px;
-              }
-              
-              a {
-                font-family: 'NexaBold', helvetica, sans-serif;
               }
               
               &:hover {
                 opacity: 1.0;
-                
-                h4 {
-                  span.line {background-color: rgba(255,255,255,0.15); width: 98%;}
-                }
                 
                 p {color: rgba(255,255,255,0.85);}
                 

@@ -18,21 +18,21 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 @font-face { font-family: 'Questrial'; src: url("/assets/questrial-regular-webfont.eot"); src: url("/assets/questrial-regular-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/questrial-regular-webfont.woff") format("woff"), url("/assets/questrial-regular-webfont.ttf") format("truetype"), url("/assets/questrial-regular-webfont.svg#questrialregular") format("application/font-woff"); font-weight: normal; font-style: normal; }
 
-body { color: #e0e0e0; font-family: 'NexaLight', helvetica, sans-serif; font-size: 13px; line-height: 20px; vertical-align: middle; }
+body { color: #e0e0e0; font-family: 'Open Sans', helvetica, sans-serif; font-size: 13px; font-weight: 300; line-height: 20px; vertical-align: middle; }
 
 h1, h2, h3, h4, h5, h6, a, div, p { -webkit-font-smoothing: subpixel-antialiased; -webkit-transition: color 0.35s, 1s; -moz-transition: color 0.35s, 1s; -o-transition: color 0.35s, 1s; transition: color 0.35s, 1s; }
 
-h1, h2, h4 { font-family: "NexaBold", helvetica, arial, sans-serif; -webkit-font-smoothing: subpixel-antialiased; -webkit-transition: color 0.35s, 1s; -moz-transition: color 0.35s, 1s; -o-transition: color 0.35s, 1s; transition: color 0.35s, 1s; }
+h1, h2, h4 { font-family: "Open Sans", helvetica, arial, sans-serif; font-weight: 700; -webkit-font-smoothing: subpixel-antialiased; -webkit-transition: color 0.35s, 1s; -moz-transition: color 0.35s, 1s; -o-transition: color 0.35s, 1s; transition: color 0.35s, 1s; }
 
-h5, h6 { font-family: "NexaLight", helvetica, arial, sans-serif; -webkit-font-smoothing: subpixel-antialiased; -webkit-transition: color 0.35s, 1s; -moz-transition: color 0.35s, 1s; -o-transition: color 0.35s, 1s; transition: color 0.35s, 1s; }
+h5, h6 { font-family: "Open Sans", helvetica, arial, sans-serif; -webkit-font-smoothing: subpixel-antialiased; -webkit-transition: color 0.35s, 1s; -moz-transition: color 0.35s, 1s; -o-transition: color 0.35s, 1s; transition: color 0.35s, 1s; }
 
-h2 { color: rgba(255, 255, 255, 0.75); font-size: 24px; line-height: 32px; text-align: center; }
+h2 { color: rgba(255, 255, 255, 0.75); font-family: 'Michroma', helvetica, sans-serif; font-size: 32px; line-height: 40px; margin-bottom: 10px; text-align: center; }
 
-h3 { color: rgba(255, 255, 255, 0.75); }
+h3 { color: rgba(255, 255, 255, 0.75); font-family: 'Michroma', helvetica, sans-serif; font-size: 18px; }
 
 h5 { color: rgba(255, 255, 255, 0.75); font-size: 16px; text-align: center; }
 
-a { color: #1462ac; text-decoration: none; }
+a { color: #1462ac; font-family: 'Open Sans', helvetica, sans-serif; font-weight: 400; text-decoration: none; }
 a:hover { color: #1462ac; text-decoration: underline; }
 a:visited { color: #1462ac; }
 
@@ -79,19 +79,15 @@ body.home #home-container h3 { font-family: 'NexaBold', helvetica, sans-serif; f
 body.home #home-container h3 a { font-family: inherit; }
 body.home #home-container p { text-align: center; }
 body.tips #tips-container { width: 100%; padding: 30px 0; margin: 0 auto; position: relative; z-index: 100; }
-body.tips #tips-container h2 { font-family: 'Michroma', helvetica, sans-serif; font-size: 32px; margin-bottom: 10px; text-transform: uppercase; }
+body.tips #tips-container h2 { text-transform: uppercase; }
 body.tips #tips-container h5 { margin-bottom: 40px; text-align: center; }
 body.tips #tips-container .tips-list { font-size: 14px; margin: 0 auto; max-width: 1100px; text-align: left; }
 body.tips #tips-container .tips-list ul.tips { list-style-type: none; margin-bottom: 25px; }
-body.tips #tips-container .tips-list ul.tips h3 { color: rgba(255, 255, 255, 0.25); font-family: 'Michroma', helvetica, sans-serif; font-size: 18px; margin-bottom: 10px; text-transform: uppercase; text-align: center; }
-body.tips #tips-container .tips-list ul.tips li.tip { background-color: transparent; border-left: 25px solid rgba(255, 255, 255, 0); cursor: default; font-family: 'Questrial', helvetica, sans-serif; opacity: 0.9; padding: 15px 35px 15px 25px; -webkit-transition-property: background-color, opacity, border; -moz-transition-property: background-color, opacity, border; -o-transition-property: background-color, opacity, border; transition-property: background-color, opacity, border; -webkit-transition-duration: 0.25s, 0.5s; -moz-transition-duration: 0.25s, 0.5s; -o-transition-duration: 0.25s, 0.5s; transition-duration: 0.25s, 0.5s; -webkit-transition-timing-function: ease-in-out; -moz-transition-timing-function: ease-in-out; -o-transition-timing-function: ease-in-out; transition-timing-function: ease-in-out; -webkit-transition-delay: 0s; -moz-transition-delay: 0s; -o-transition-delay: 0s; transition-delay: 0s; }
+body.tips #tips-container .tips-list ul.tips h3 { color: rgba(255, 255, 255, 0.25); margin-bottom: 10px; text-transform: uppercase; text-align: center; }
+body.tips #tips-container .tips-list ul.tips li.tip { background-color: transparent; border-left: 25px solid rgba(255, 255, 255, 0); cursor: default; opacity: 0.9; padding: 15px 35px 15px 25px; -webkit-transition-property: background-color, opacity, border; -moz-transition-property: background-color, opacity, border; -o-transition-property: background-color, opacity, border; transition-property: background-color, opacity, border; -webkit-transition-duration: 0.25s, 0.5s; -moz-transition-duration: 0.25s, 0.5s; -o-transition-duration: 0.25s, 0.5s; transition-duration: 0.25s, 0.5s; -webkit-transition-timing-function: ease-in-out; -moz-transition-timing-function: ease-in-out; -o-transition-timing-function: ease-in-out; transition-timing-function: ease-in-out; -webkit-transition-delay: 0s; -moz-transition-delay: 0s; -o-transition-delay: 0s; transition-delay: 0s; }
 body.tips #tips-container .tips-list ul.tips li.tip h4 { color: white; display: block; font-size: 20px; line-height: 24px; margin-bottom: 3px; min-width: initial; width: 100%; }
-body.tips #tips-container .tips-list ul.tips li.tip h4 span { display: block; }
-body.tips #tips-container .tips-list ul.tips li.tip h4 span.line { background-color: rgba(255, 255, 255, 0); font-size: 0px; height: 1px; line-height: 0px; width: auto; -webkit-transition-property: background-color, width; -moz-transition-property: background-color, width; -o-transition-property: background-color, width; transition-property: background-color, width; -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; -o-transition-duration: 0.5s; transition-duration: 0.5s; -webkit-transition-timing-function: ease-in-out; -moz-transition-timing-function: ease-in-out; -o-transition-timing-function: ease-in-out; transition-timing-function: ease-in-out; -webkit-transition-delay: 0s; -moz-transition-delay: 0s; -o-transition-delay: 0s; transition-delay: 0s; }
-body.tips #tips-container .tips-list ul.tips li.tip p { color: rgba(255, 255, 255, 0.75); font-family: 'NexaLight', helvetica, sans-serif; font-size: 15px; }
-body.tips #tips-container .tips-list ul.tips li.tip a { font-family: 'NexaBold', helvetica, sans-serif; }
+body.tips #tips-container .tips-list ul.tips li.tip p { color: rgba(255, 255, 255, 0.75); }
 body.tips #tips-container .tips-list ul.tips li.tip:hover { opacity: 1.0; }
-body.tips #tips-container .tips-list ul.tips li.tip:hover h4 span.line { background-color: rgba(255, 255, 255, 0.15); width: 98%; }
 body.tips #tips-container .tips-list ul.tips li.tip:hover p { color: rgba(255, 255, 255, 0.85); }
 body.tips #tips-container .tips-list ul.tips li.tip:hover:nth-of-type(6n + 1) { background-color: rgba(246, 255, 0, 0.15); border-left: 25px solid rgba(246, 255, 0, 0.25); }
 body.tips #tips-container .tips-list ul.tips li.tip:hover:nth-of-type(6n + 2) { background-color: rgba(214, 0, 206, 0.15); border-left: 25px solid rgba(214, 0, 206, 0.25); }
