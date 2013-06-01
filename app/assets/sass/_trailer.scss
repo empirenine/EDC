@@ -1,0 +1,30 @@
+@import 'compass/css3';
+
+@mixin trailer() {
+  #trailer-container {
+    width: 100%; 
+    padding: 30px 0; 
+    margin:0 auto; 
+    position:relative; 
+    z-index: 100;
+
+    h2 {
+      font-family: 'Michroma', helvetica, sans-serif;
+      font-size: 32px;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+    }
+
+    h5 {
+      margin-bottom: 40px;
+      text-align: center;
+    }
+    
+    .video {
+      height: 600px;
+      position: relative;
+      width: 1000px;
+      z-index: 100;
+    }
+  }
+}

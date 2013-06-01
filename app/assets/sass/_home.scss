@@ -1,0 +1,116 @@
+@import 'compass/css3';
+
+@-webkit-keyframes STAR-MOVE {
+	from {top: -2000px;}
+	to {top: 0px;}
+}
+@mixin home() {
+  
+  .soon {color: rgba(255,255,255,0.50);}
+  
+  a#heading {
+    -webkit-animation: pulse 20s infinite alternate;
+    background-color: rgba(255,255,255,0.15);
+    display: block;
+    margin-bottom: 0;
+    margin-top: 25px;
+    padding: 10px 0;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    z-index: 100;
+    
+    h1 {
+      color: #fff;
+      font-family: 'Michroma', helvetica, sans-serif;
+      font-size: 80px;
+      line-height: 80px;
+      @include text-shadow(rgba(0,0,0,0.4) 0 3px 10px);
+
+      span {
+        color: #ddd;
+        font-family: 'Lato', helvetica, sans-serif;
+        font-weight: 100;
+        text-transform: uppercase;
+        vertical-align: baseline;
+      }
+    }
+
+    h2 {
+      color: rgba(255,255,255,0.3);
+      font-family: 'Michroma', helvetica, sans-serif;
+      font-size: 16px;
+      font-weight: 300;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+  
+  #background {
+  	background: transparent url(/assets/background.png) repeat 5% 5%;
+  	opacity: 0.8;
+  	position: absolute;
+  	top: 0; left: 0; right: 0; bottom: 0;
+  	z-index: 0;
+	
+  	-webkit-animation-name: STAR-MOVE;
+  	-webkit-animation-duration: 200s;
+  	-webkit-animation-timing-function: linear;
+  	-webkit-animation-iteration-count: infinite;
+  }
+
+  #midground {
+  	background: url(/assets/midground.png) repeat 20% 20%;
+  	opacity: 0.8;
+  	position: absolute;
+  	top: 0; left: 0; right: 0; bottom: 0;
+  	z-index: 10;
+	
+  	-webkit-animation-name: STAR-MOVE;
+  	-webkit-animation-duration: 150s;
+  	-webkit-animation-timing-function: linear;
+  	-webkit-animation-iteration-count: infinite;
+  }
+
+  #foreground {
+  	background: url(/assets/foreground.png) repeat 35% 35%;
+  	opacity: 0.8;
+  	position: absolute;
+  	top: 0; left: 0; right: 0; bottom: 0;
+  	z-index: 20;
+	
+  	-webkit-animation-name: STAR-MOVE;
+  	-webkit-animation-duration: 100s;
+  	-webkit-animation-timing-function: linear;
+  	-webkit-animation-iteration-count: infinite;
+  }
+  
+  #home-container {
+    width: 100%; 
+    padding: 30px 0; 
+    margin:0 auto; 
+    position:relative; 
+    z-index: 100;
+    
+    h2 {
+      font-family: 'NexaBold', helvetica, sans-serif;
+      margin-bottom: 20px;
+    }
+    
+    h3 {
+      font-family: 'NexaBold', helvetica, sans-serif;
+      font-size: 28px;
+      text-align: center;
+      margin-bottom: 20px;
+      
+      a {
+        font-family: inherit;
+      }
+    }
+    
+    p {text-align: center;}
+  }
+
+  
+}

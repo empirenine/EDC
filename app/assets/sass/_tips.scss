@@ -1,0 +1,126 @@
+@import 'compass/css3';
+
+@mixin tips() {
+  #tips-container {
+    width: 100%; 
+    padding: 30px 0; 
+    margin:0 auto; 
+    position:relative; 
+    z-index: 100;
+    
+    h2 {
+      font-family: 'Michroma', helvetica, sans-serif;
+      font-size: 32px;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+    }
+    
+    h5 {
+      margin-bottom: 40px;
+      text-align: center;
+    }
+    
+    
+    .tips-list {
+      font-size: 14px;
+      margin: 0 auto;
+      max-width: 1100px;
+      text-align: left;
+      
+      ul {
+        &.tips {
+          list-style-type: none;
+          margin-bottom: 25px;
+          
+          h3 {
+            color: rgba(255,255,255,0.25);
+            font-family: 'Michroma', helvetica, sans-serif;
+            font-size: 18px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            text-align: center;
+          }
+          
+          li {
+            &.tip {
+              background-color: transparent;
+              border-left: 25px solid rgba(255,255,255,0);
+              cursor: default;
+              font-family: 'Questrial', helvetica, sans-serif;
+              opacity: 0.9;
+              padding: 15px 35px 15px 25px;
+              @include transition-property('background-color, opacity, border');
+              @include transition-duration('0.25s, 0.5s');
+              @include transition-timing-function('ease-in-out');
+              @include transition-delay('0s');
+          
+              h4 {
+                color: rgba(255,255,255,1);
+                display: block;
+                font-size: 20px;
+                line-height: 24px;
+                margin-bottom: 3px;
+                min-width: initial;
+                width: 100%;
+                
+                span {
+                  display: block;
+                  
+                  &.line {
+                    background-color: rgba(255,255,255,0);
+                    font-size: 0px;
+                    height: 1px;
+                    line-height: 0px;
+                    width: auto;
+                    @include transition-property('background-color, width');
+                    @include transition-duration('0.5s');
+                    @include transition-timing-function('ease-in-out');
+                    @include transition-delay('0s');
+                  }
+                }
+              }
+              
+              p {
+                color: rgba(255,255,255,0.75);
+                font-family: 'NexaLight', helvetica, sans-serif;
+                font-size: 15px;
+              }
+              
+              a {
+                font-family: 'NexaBold', helvetica, sans-serif;
+              }
+              
+              &:hover {
+                opacity: 1.0;
+                
+                h4 {
+                  span.line {background-color: rgba(255,255,255,0.15); width: 98%;}
+                }
+                
+                p {color: rgba(255,255,255,0.85);}
+                
+                &:nth-of-type(6n + 1) {background-color: rgba(246,255,0,0.15); border-left: 25px solid rgba(246,255,0,0.25);}
+                &:nth-of-type(6n + 2) {background-color: rgba(214,0,206,0.15); border-left: 25px solid rgba(214,0,206,0.25);}
+                &:nth-of-type(6n + 3) {background-color: rgba(214,0,0,0.15); border-left: 25px solid rgba(214,0,0,0.25)   ;}
+                &:nth-of-type(6n + 4) {background-color: rgba(0,30,255,0.15); border-left: 25px solid rgba(0,30,255,0.25) ;}
+                &:nth-of-type(6n + 5) {background-color: rgba(246,255,0,0.15); border-left: 25px solid rgba(246,255,0,0.25);}
+                &:nth-of-type(6n + 6) {background-color: rgba(255,168,0,0.15); border-left: 25px solid rgba(255,168,0,0.25);}
+                &:nth-of-type(6n + 7) {background-color: rgba(0,214,0,0.15); border-left: 25px solid rgba(0,214,0,0.25)  ;}
+                
+                & + li.tip {
+                  background-color: rgba(0,0,0,1);
+                  opacity: 0.95;
+                }
+              }
+            }
+          }
+          
+          &:hover {
+            h3 {color: rgba(255,255,255,1);}
+          }
+        }
+      }
+    }
+  }
+
+}

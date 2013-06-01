@@ -1,32 +1,36 @@
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font: inherit; font-size: 100%; vertical-align: baseline; }
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { border: 0; font-size: 100%; font: inherit; vertical-align: baseline; margin: 0; padding: 0; }
 
-html { line-height: 1; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+body { line-height: 1; }
 
 ol, ul { list-style: none; }
 
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after { content: none; }
+
 table { border-collapse: collapse; border-spacing: 0; }
 
-caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; }
+@font-face { font-family: 'NexaBold'; src: url("/assets/nexa_bold-webfont.eot"); src: url("/assets/nexa_bold-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/nexa_bold-webfont.woff") format("woff"), url("/assets/nexa_bold-webfont.ttf") format("truetype"), url("/assets/nexa_bold-webfont.svg#nexa_boldregular") format("application/font-woff"); font-weight: normal; font-style: normal; }
 
-q, blockquote { quotes: none; }
-q:before, q:after, blockquote:before, blockquote:after { content: ""; content: none; }
+@font-face { font-family: 'NexaLight'; src: url("/assets/nexa_light-webfont.eot"); src: url("/assets/nexa_light-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/nexa_light-webfont.woff") format("woff"), url("/assets/nexa_light-webfont.ttf") format("truetype"), url("/assets/nexa_light-webfont.svg#nexa_lightregular") format("application/font-woff"); font-weight: normal; font-style: normal; }
 
-a img { border: none; }
+@font-face { font-family: 'Questrial'; src: url("/assets/questrial-regular-webfont.eot"); src: url("/assets/questrial-regular-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/questrial-regular-webfont.woff") format("woff"), url("/assets/questrial-regular-webfont.ttf") format("truetype"), url("/assets/questrial-regular-webfont.svg#questrialregular") format("application/font-woff"); font-weight: normal; font-style: normal; }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary { display: block; }
+body { color: #e0e0e0; font-family: 'NexaLight', helvetica, sans-serif; font-size: 13px; line-height: 20px; vertical-align: middle; }
 
-@font-face { font-family: 'NexaBold'; src: url("/fonts/nexa_bold-webfont.eot"); src: url("/fonts/nexa_bold-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/nexa_bold-webfont.woff") format("woff"), url("/fonts/nexa_bold-webfont.ttf") format("truetype"), url("/fonts/nexa_bold-webfont.svg#nexa_boldregular") format("application/font-woff"); font-weight: normal; font-style: normal; }
+h1, h2, h3, h4, h5, h6, a, div, p { -webkit-font-smoothing: subpixel-antialiased; -webkit-transition: color 0.35s, 1s; -moz-transition: color 0.35s, 1s; -o-transition: color 0.35s, 1s; transition: color 0.35s, 1s; }
 
-@font-face { font-family: 'NexaLight'; src: url("/fonts/nexa_light-webfont.eot"); src: url("/fonts/nexa_light-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/nexa_light-webfont.woff") format("woff"), url("/fonts/nexa_light-webfont.ttf") format("truetype"), url("/fonts/nexa_light-webfont.svg#nexa_lightregular") format("application/font-woff"); font-weight: normal; font-style: normal; }
-
-/*// Questrial
-@font-face { font-family: 'Questrial'; src: url('/fonts/questrial-regular-webfont.eot'); src: url('/fonts/questrial-regular-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/questrial-regular-webfont.woff') format('woff'), url('/fonts/questrial-regular-webfont.ttf') format('truetype'), url('/fonts/questrial-regular-webfont.svg#questrialregular') format('application/font-woff'); font-weight: normal; font-style: normal;
-}*/
-body { color: #e0e0e0; font-family: "Questrial", helvetica, arial, sans-serif; font-size: 13px; line-height: 20px; vertical-align: middle; }
-
-h1, h2, h3, h4 { font-family: "NexaBold", helvetica, arial, sans-serif; -webkit-font-smoothing: subpixel-antialiased; -webkit-transition: color 0.35s, 1s; -moz-transition: color 0.35s, 1s; -o-transition: color 0.35s, 1s; transition: color 0.35s, 1s; }
+h1, h2, h4 { font-family: "NexaBold", helvetica, arial, sans-serif; -webkit-font-smoothing: subpixel-antialiased; -webkit-transition: color 0.35s, 1s; -moz-transition: color 0.35s, 1s; -o-transition: color 0.35s, 1s; transition: color 0.35s, 1s; }
 
 h5, h6 { font-family: "NexaLight", helvetica, arial, sans-serif; -webkit-font-smoothing: subpixel-antialiased; -webkit-transition: color 0.35s, 1s; -moz-transition: color 0.35s, 1s; -o-transition: color 0.35s, 1s; transition: color 0.35s, 1s; }
+
+h2 { color: rgba(255, 255, 255, 0.75); font-size: 24px; line-height: 32px; text-align: center; }
+
+h3 { color: rgba(255, 255, 255, 0.75); }
+
+h5 { color: rgba(255, 255, 255, 0.75); font-size: 16px; text-align: center; }
 
 a { color: #1462ac; text-decoration: none; }
 a:hover { color: #1462ac; text-decoration: underline; }
@@ -34,6 +38,71 @@ a:visited { color: #1462ac; }
 
 span { vertical-align: text-top; }
 
-html { height: 100%; }
+@-webkit-keyframes STAR-MOVE { from { top: -2000px; }
+  to { top: 0px; } }
 
-body { background-color: #191919; }
+@-webkit-keyframes STAR-MOVE { from { top: -2000px; }
+  to { top: 0px; } }
+
+@-webkit-keyframes pulse { 0% { background-color: rgba(255, 255, 255, 0.15); }
+  20% { background-color: rgba(246, 255, 0, 0.15); }
+  40% { background-color: rgba(0, 214, 0, 0.15); }
+  60% { background-color: rgba(214, 0, 206, 0.15); }
+  80% { background-color: rgba(214, 0, 0, 0.15); }
+  100% { background-color: rgba(255, 168, 0, 0.15); } }
+
+body { color: #fff; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #020923), color-stop(100%, #030303)); background-image: -webkit-linear-gradient(#020923, #030303); background-image: -moz-linear-gradient(#020923, #030303); background-image: -o-linear-gradient(#020923, #030303); background-image: linear-gradient(#020923, #030303); }
+body .wrapper { height: 100%; z-index: 100; }
+body #container { height: 100%; }
+body .page-container { min-height: 1500px; }
+body #main { background-color: rgba(0, 0, 0, 0.75); height: 100%; margin: 0 auto; max-width: 1000px; padding: 0 50px; position: relative; }
+body a#heading { -webkit-animation: pulse 20s infinite alternate; background-color: rgba(255, 255, 255, 0.15); display: block; margin-top: 0; margin-bottom: 25px; padding: 10px 0; position: relative; text-align: center; text-decoration: none; width: 100%; z-index: 100; }
+body a#heading h1 { color: #fff; font-family: 'Michroma', helvetica, sans-serif; font-size: 60px; line-height: 60px; text-shadow: rgba(0, 0, 0, 0.4) 0 3px 10px; }
+body a#heading h1 span { color: #ddd; font-family: 'Lato', helvetica, sans-serif; font-weight: 100; text-transform: uppercase; vertical-align: baseline; }
+body a#heading h2 { color: rgba(255, 255, 255, 0.3); font-family: 'Michroma', helvetica, sans-serif; font-size: 13px; font-weight: 300; line-height: 18px; text-align: center; text-transform: uppercase; }
+body footer { background-color: #000; bottom: 0; padding: 6px 0; position: fixed; width: 100%; }
+body footer .disclaimer { color: #555; font-size: 10px; font-weight: 300; line-height: 12px; text-align: center; width: 100%; }
+body #background { background: transparent url(/assets/background.png) repeat 5% 5%; opacity: 0.8; position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 0; }
+body #midground { background: url(/assets/midground.png) repeat 20% 20%; opacity: 0.8; position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 10; }
+body #foreground { background: url(/assets/foreground.png) repeat 35% 35%; opacity: 0.8; position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 20; }
+body.home .soon { color: rgba(255, 255, 255, 0.5); }
+body.home a#heading { -webkit-animation: pulse 20s infinite alternate; background-color: rgba(255, 255, 255, 0.15); display: block; margin-bottom: 0; margin-top: 25px; padding: 10px 0; position: relative; text-align: center; text-decoration: none; width: 100%; z-index: 100; }
+body.home a#heading h1 { color: #fff; font-family: 'Michroma', helvetica, sans-serif; font-size: 80px; line-height: 80px; text-shadow: rgba(0, 0, 0, 0.4) 0 3px 10px; }
+body.home a#heading h1 span { color: #ddd; font-family: 'Lato', helvetica, sans-serif; font-weight: 100; text-transform: uppercase; vertical-align: baseline; }
+body.home a#heading h2 { color: rgba(255, 255, 255, 0.3); font-family: 'Michroma', helvetica, sans-serif; font-size: 16px; font-weight: 300; text-align: center; text-transform: uppercase; }
+body.home #background { background: transparent url(/assets/background.png) repeat 5% 5%; opacity: 0.8; position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 0; -webkit-animation-name: STAR-MOVE; -webkit-animation-duration: 200s; -webkit-animation-timing-function: linear; -webkit-animation-iteration-count: infinite; }
+body.home #midground { background: url(/assets/midground.png) repeat 20% 20%; opacity: 0.8; position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 10; -webkit-animation-name: STAR-MOVE; -webkit-animation-duration: 150s; -webkit-animation-timing-function: linear; -webkit-animation-iteration-count: infinite; }
+body.home #foreground { background: url(/assets/foreground.png) repeat 35% 35%; opacity: 0.8; position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 20; -webkit-animation-name: STAR-MOVE; -webkit-animation-duration: 100s; -webkit-animation-timing-function: linear; -webkit-animation-iteration-count: infinite; }
+body.home #home-container { width: 100%; padding: 30px 0; margin: 0 auto; position: relative; z-index: 100; }
+body.home #home-container h2 { font-family: 'NexaBold', helvetica, sans-serif; margin-bottom: 20px; }
+body.home #home-container h3 { font-family: 'NexaBold', helvetica, sans-serif; font-size: 28px; text-align: center; margin-bottom: 20px; }
+body.home #home-container h3 a { font-family: inherit; }
+body.home #home-container p { text-align: center; }
+body.tips #tips-container { width: 100%; padding: 30px 0; margin: 0 auto; position: relative; z-index: 100; }
+body.tips #tips-container h2 { font-family: 'Michroma', helvetica, sans-serif; font-size: 32px; margin-bottom: 10px; text-transform: uppercase; }
+body.tips #tips-container h5 { margin-bottom: 40px; text-align: center; }
+body.tips #tips-container .tips-list { font-size: 14px; margin: 0 auto; max-width: 1100px; text-align: left; }
+body.tips #tips-container .tips-list ul.tips { list-style-type: none; margin-bottom: 25px; }
+body.tips #tips-container .tips-list ul.tips h3 { color: rgba(255, 255, 255, 0.25); font-family: 'Michroma', helvetica, sans-serif; font-size: 18px; margin-bottom: 10px; text-transform: uppercase; text-align: center; }
+body.tips #tips-container .tips-list ul.tips li.tip { background-color: transparent; border-left: 25px solid rgba(255, 255, 255, 0); cursor: default; font-family: 'Questrial', helvetica, sans-serif; opacity: 0.9; padding: 15px 35px 15px 25px; -webkit-transition-property: background-color, opacity, border; -moz-transition-property: background-color, opacity, border; -o-transition-property: background-color, opacity, border; transition-property: background-color, opacity, border; -webkit-transition-duration: 0.25s, 0.5s; -moz-transition-duration: 0.25s, 0.5s; -o-transition-duration: 0.25s, 0.5s; transition-duration: 0.25s, 0.5s; -webkit-transition-timing-function: ease-in-out; -moz-transition-timing-function: ease-in-out; -o-transition-timing-function: ease-in-out; transition-timing-function: ease-in-out; -webkit-transition-delay: 0s; -moz-transition-delay: 0s; -o-transition-delay: 0s; transition-delay: 0s; }
+body.tips #tips-container .tips-list ul.tips li.tip h4 { color: white; display: block; font-size: 20px; line-height: 24px; margin-bottom: 3px; min-width: initial; width: 100%; }
+body.tips #tips-container .tips-list ul.tips li.tip h4 span { display: block; }
+body.tips #tips-container .tips-list ul.tips li.tip h4 span.line { background-color: rgba(255, 255, 255, 0); font-size: 0px; height: 1px; line-height: 0px; width: auto; -webkit-transition-property: background-color, width; -moz-transition-property: background-color, width; -o-transition-property: background-color, width; transition-property: background-color, width; -webkit-transition-duration: 0.5s; -moz-transition-duration: 0.5s; -o-transition-duration: 0.5s; transition-duration: 0.5s; -webkit-transition-timing-function: ease-in-out; -moz-transition-timing-function: ease-in-out; -o-transition-timing-function: ease-in-out; transition-timing-function: ease-in-out; -webkit-transition-delay: 0s; -moz-transition-delay: 0s; -o-transition-delay: 0s; transition-delay: 0s; }
+body.tips #tips-container .tips-list ul.tips li.tip p { color: rgba(255, 255, 255, 0.75); font-family: 'NexaLight', helvetica, sans-serif; font-size: 15px; }
+body.tips #tips-container .tips-list ul.tips li.tip a { font-family: 'NexaBold', helvetica, sans-serif; }
+body.tips #tips-container .tips-list ul.tips li.tip:hover { opacity: 1.0; }
+body.tips #tips-container .tips-list ul.tips li.tip:hover h4 span.line { background-color: rgba(255, 255, 255, 0.15); width: 98%; }
+body.tips #tips-container .tips-list ul.tips li.tip:hover p { color: rgba(255, 255, 255, 0.85); }
+body.tips #tips-container .tips-list ul.tips li.tip:hover:nth-of-type(6n + 1) { background-color: rgba(246, 255, 0, 0.15); border-left: 25px solid rgba(246, 255, 0, 0.25); }
+body.tips #tips-container .tips-list ul.tips li.tip:hover:nth-of-type(6n + 2) { background-color: rgba(214, 0, 206, 0.15); border-left: 25px solid rgba(214, 0, 206, 0.25); }
+body.tips #tips-container .tips-list ul.tips li.tip:hover:nth-of-type(6n + 3) { background-color: rgba(214, 0, 0, 0.15); border-left: 25px solid rgba(214, 0, 0, 0.25); }
+body.tips #tips-container .tips-list ul.tips li.tip:hover:nth-of-type(6n + 4) { background-color: rgba(0, 30, 255, 0.15); border-left: 25px solid rgba(0, 30, 255, 0.25); }
+body.tips #tips-container .tips-list ul.tips li.tip:hover:nth-of-type(6n + 5) { background-color: rgba(246, 255, 0, 0.15); border-left: 25px solid rgba(246, 255, 0, 0.25); }
+body.tips #tips-container .tips-list ul.tips li.tip:hover:nth-of-type(6n + 6) { background-color: rgba(255, 168, 0, 0.15); border-left: 25px solid rgba(255, 168, 0, 0.25); }
+body.tips #tips-container .tips-list ul.tips li.tip:hover:nth-of-type(6n + 7) { background-color: rgba(0, 214, 0, 0.15); border-left: 25px solid rgba(0, 214, 0, 0.25); }
+body.tips #tips-container .tips-list ul.tips li.tip:hover + li.tip { background-color: black; opacity: 0.95; }
+body.tips #tips-container .tips-list ul.tips:hover h3 { color: white; }
+body.trailers #trailer-container { width: 100%; padding: 30px 0; margin: 0 auto; position: relative; z-index: 100; }
+body.trailers #trailer-container h2 { font-family: 'Michroma', helvetica, sans-serif; font-size: 32px; margin-bottom: 10px; text-transform: uppercase; }
+body.trailers #trailer-container h5 { margin-bottom: 40px; text-align: center; }
+body.trailers #trailer-container .video { height: 600px; position: relative; width: 1000px; z-index: 100; }

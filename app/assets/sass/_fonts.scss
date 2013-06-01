@@ -1,11 +1,11 @@
 // Nexa Bold
 @font-face {
   font-family: 'NexaBold';
-  src: url('/fonts/nexa_bold-webfont.eot');
-  src: url('/fonts/nexa_bold-webfont.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/nexa_bold-webfont.woff') format('woff'),
-    url('/fonts/nexa_bold-webfont.ttf') format('truetype'),
-    url('/fonts/nexa_bold-webfont.svg#nexa_boldregular') format('application/font-woff');
+  src: url('/assets/nexa_bold-webfont.eot');
+  src: url('/assets/nexa_bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/assets/nexa_bold-webfont.woff') format('woff'),
+    url('/assets/nexa_bold-webfont.ttf') format('truetype'),
+    url('/assets/nexa_bold-webfont.svg#nexa_boldregular') format('application/font-woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -13,23 +13,23 @@
 // Nexa Light
 @font-face {
   font-family: 'NexaLight';
-  src: url('/fonts/nexa_light-webfont.eot');
-  src: url('/fonts/nexa_light-webfont.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/nexa_light-webfont.woff') format('woff'),
-    url('/fonts/nexa_light-webfont.ttf') format('truetype'),
-    url('/fonts/nexa_light-webfont.svg#nexa_lightregular') format('application/font-woff');
+  src: url('/assets/nexa_light-webfont.eot');
+  src: url('/assets/nexa_light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/assets/nexa_light-webfont.woff') format('woff'),
+    url('/assets/nexa_light-webfont.ttf') format('truetype'),
+    url('/assets/nexa_light-webfont.svg#nexa_lightregular') format('application/font-woff');
   font-weight: normal;
   font-style: normal;
 }
 
-/*// Questrial
+// Questrial
 @font-face {
   font-family: 'Questrial';
-  src: url('/fonts/questrial-regular-webfont.eot');
-  src: url('/fonts/questrial-regular-webfont.eot?#iefix') format('embedded-opentype'),
-    url('/fonts/questrial-regular-webfont.woff') format('woff'),
-    url('/fonts/questrial-regular-webfont.ttf') format('truetype'),
-    url('/fonts/questrial-regular-webfont.svg#questrialregular') format('application/font-woff');
+  src: url('/assets/questrial-regular-webfont.eot');
+  src: url('/assets/questrial-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/assets/questrial-regular-webfont.woff') format('woff'),
+    url('/assets/questrial-regular-webfont.ttf') format('truetype'),
+    url('/assets/questrial-regular-webfont.svg#questrialregular') format('application/font-woff');
   font-weight: normal;
   font-style: normal;
-}*/
+}

@@ -1,23 +1,142 @@
 // GENERAL ////////////////////////////////////////////////////////////////////////////
-@import 'compass/reset';
 @import 'compass/css3/transition';
 @import 'compass/css3/user-interface';
 
 // CUSTOM
+@import 'reset';             // Color palette only
 @import 'colors';             // Color palette only
 @import 'variables';          // Margins, padding, images & related
 @import 'fonts';
 @import 'text';
-//@import 'forms';
-//@import 'buttons';
-//@import 'helpers';
-//@import 'header';
-//@import 'homepage';
-//@import 'product';
-//@import 'blog';
-//@import 'demo';
+@import '_home';
+@import '_tips';
+@import '_trailer';
 
+@-webkit-keyframes STAR-MOVE {
+	from {top: -2000px;}
+	to {top: 0px;}
+}
+
+@-webkit-keyframes pulse {
+    0% {background-color: rgba(255,255,255,0.15);}
+   20% {background-color: rgba(246,255,0,0.15);}
+   40% {background-color: rgba(0,214,0,0.15);}
+   60% {background-color: rgba(214,0,206,0.15);}
+   80% {background-color: rgba(214,0,0,0.15);}
+  100% {background-color: rgba(255,168,0,0.15);}
+}
 
 // THE DETAILS 
-html {height: 100%;}
-body {background-color: $default-dark-gray;}
+html,body {}
+
+body {
+  color: #fff;
+  @include background-image(linear-gradient(#020923, #030303));
+  
+  .wrapper {
+    height: 100%;
+    z-index: 100;
+  }
+  
+  #container {height: 100%;}
+  
+  .page-container {
+    min-height: 1500px;
+  }
+  
+  
+  #main {
+    background-color: rgba(0,0,0,0.75);
+    height: 100%;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 0 50px;
+    position: relative;
+  }
+
+  a#heading {
+    -webkit-animation: pulse 20s infinite alternate;
+    background-color: rgba(255,255,255,0.15);
+    display: block;
+    margin-top: 0;
+    margin-bottom: 25px;
+    padding: 10px 0;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    z-index: 100;
+    
+    h1 {
+      color: #fff;
+      font-family: 'Michroma', helvetica, sans-serif;
+      font-size: 60px;
+      line-height: 60px;
+      @include text-shadow(rgba(0,0,0,0.4) 0 3px 10px);
+
+      span {
+        color: #ddd;
+        font-family: 'Lato', helvetica, sans-serif;
+        font-weight: 100;
+        text-transform: uppercase;
+        vertical-align: baseline;
+      }
+    }
+
+    h2 {
+      color: rgba(255,255,255,0.3);
+      font-family: 'Michroma', helvetica, sans-serif;
+      font-size: 13px;
+      font-weight: 300;
+      line-height: 18px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+  
+  footer {
+    background-color: #000;
+    bottom: 0;
+    padding: 6px 0;
+    position: fixed;
+    width: 100%;
+    
+    .disclaimer {
+      color: #555;
+      font-size: 10px;
+      font-weight: 300;
+      line-height: 12px;
+      text-align: center;
+      width: 100%;
+    }
+  }
+  
+  #background {
+  	background: transparent url(/assets/background.png) repeat 5% 5%;
+  	opacity: 0.8;
+  	position: absolute;
+  	top: 0; left: 0; right: 0; bottom: 0;
+  	z-index: 0;
+  }
+
+  #midground {
+  	background: url(/assets/midground.png) repeat 20% 20%;
+  	opacity: 0.8;
+  	position: absolute;
+  	top: 0; left: 0; right: 0; bottom: 0;
+  	z-index: 10;
+  }
+
+  #foreground {
+  	background: url(/assets/foreground.png) repeat 35% 35%;
+  	opacity: 0.8;
+  	position: absolute;
+  	top: 0; left: 0; right: 0; bottom: 0;
+  	z-index: 20;
+  }
+  
+  &.home {@include home();}
+  &.tips {@include tips();}
+  &.trailers {@include trailer();}
+}
+

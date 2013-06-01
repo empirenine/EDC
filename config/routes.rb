@@ -1,4 +1,6 @@
 EDC::Application.routes.draw do
+  match '/tips' => "tips#index"
+  match '/trailer' => "trailers#index"
   root :to => "home#index"
   resources :users, :only => [:index, :show, :edit, :update ]
   match '/auth/:provider/callback' => 'sessions#create'

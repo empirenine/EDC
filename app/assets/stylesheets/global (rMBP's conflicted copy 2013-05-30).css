@@ -1,0 +1,36 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font: inherit; font-size: 100%; vertical-align: baseline; }
+
+html { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; }
+
+q, blockquote { quotes: none; }
+q:before, q:after, blockquote:before, blockquote:after { content: ""; content: none; }
+
+a img { border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary { display: block; }
+
+@font-face { font-family: 'NexaBold'; src: url("/wp-content/themes/easyask/wp-content/themes/easyask/fonts/nexa_bold-webfont.eot"); src: url("/wp-content/themes/easyask/fonts/nexa_bold-webfont.eot?#iefix") format("embedded-opentype"), url("/wp-content/themes/easyask/fonts/nexa_bold-webfont.woff") format("woff"), url("/wp-content/themes/easyask/fonts/nexa_bold-webfont.ttf") format("truetype"), url("/wp-content/themes/easyask/fonts/nexa_bold-webfont.svg#nexa_boldregular") format("application/font-woff"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'NexaLight'; src: url("/wp-content/themes/easyask/fonts/nexa_light-webfont.eot"); src: url("/wp-content/themes/easyask/fonts/nexa_light-webfont.eot?#iefix") format("embedded-opentype"), url("/wp-content/themes/easyask/fonts/nexa_light-webfont.woff") format("woff"), url("/wp-content/themes/easyask/fonts/nexa_light-webfont.ttf") format("truetype"), url("/wp-content/themes/easyask/fonts/nexa_light-webfont.svg#nexa_lightregular") format("application/font-woff"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'Questrial'; src: url("/wp-content/themes/easyask/fonts/questrial-regular-webfont.eot"); src: url("/wp-content/themes/easyask/fonts/questrial-regular-webfont.eot?#iefix") format("embedded-opentype"), url("/wp-content/themes/easyask/fonts/questrial-regular-webfont.woff") format("woff"), url("/wp-content/themes/easyask/fonts/questrial-regular-webfont.ttf") format("truetype"), url("/wp-content/themes/easyask/fonts/questrial-regular-webfont.svg#questrialregular") format("application/font-woff"); font-weight: normal; font-style: normal; }
+
+body { color: #e0e0e0; font-family: "Questrial", helvetica, arial, sans-serif; font-size: 13px; line-height: 20px; vertical-align: middle; }
+
+h1, h2, h3, h4 { font-family: "NexaBold", helvetica, arial, sans-serif; -webkit-font-smoothing: subpixel-antialiased; -webkit-transition: color 0.35s, 1s; -moz-transition: color 0.35s, 1s; -o-transition: color 0.35s, 1s; transition: color 0.35s, 1s; }
+
+h5, h6 { font-family: "NexaLight", helvetica, arial, sans-serif; -webkit-font-smoothing: subpixel-antialiased; -webkit-transition: color 0.35s, 1s; -moz-transition: color 0.35s, 1s; -o-transition: color 0.35s, 1s; transition: color 0.35s, 1s; }
+
+a { color: #1462ac; text-decoration: none; }
+a:hover { color: #1462ac; text-decoration: underline; }
+a:visited { color: #1462ac; }
+
+span { vertical-align: text-top; }
+
+html { height: 100%; }

@@ -4,24 +4,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%= content_for?(:title) ? yield(:title) : "EDC Las Vegas" %></title>
     <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "EDC Las Vegas | The Unofficial Hub for All Things EDC" %>">
+    <link href='//fonts.googleapis.com/css?family=Lato:100,300,400,900|Michroma' rel='stylesheet' type='text/css'>
     <%= stylesheet_link_tag "global", :media => "all" %>
     <%= javascript_include_tag "application" %>
     <%= csrf_meta_tags %>
     <%= yield(:head) %>
 </head>
 <body class="<%= controller_name %> <%= action_name %>">
+    <div id="background"></div>
+    <div id="midground"></div>
+    <div id="foreground"></div>
     <div class="wrapper">
-        <div id="container" class="container">
+        <div id="container">
             <header>
                 <%= render 'layouts/navigation' %>
                 <%= render 'layouts/messages' %>
+                <%= render 'layouts/header' %>
             </header>
             <div id="main" role="main">
                 <%= yield %>
             </div>
-            <footer>
-            </footer>
+            
         </div> <!--! end of #container -->
+        <footer>
+          <div class="disclaimer">This website is in no way associated with Insomniac, Inc., Electric Daisy Carnival or any affiliates or subsidiaries, implied or otherwise. Our mission is to provide information to EDC Las Vegas attendees, before &amp; after the show, in a supportive community-based manner.</div>
+        </footer>
     </div>
 </body>
 </html>
